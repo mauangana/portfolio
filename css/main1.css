@@ -1,0 +1,1058 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+body{
+    position: relative;
+}
+.section{
+    width: 100%;
+}
+nav{
+    background: rgba(0, 0, 0, 0.5);
+    transition: background-color 1s ease 0s;
+    color: white !important;
+}
+.nav-link{
+    font-size: 15px !important;
+}
+  /* Solid class attached on scroll past first section */
+  .navbar.solid {
+    background-color: #A47CBD;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-nav > li > a {
+    color: white !important;
+    transition: color 1s ease 0s;
+}
+
+/* section 1 css */
+
+.sec1 {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    color: white !important;
+    background: url(../img/bg5.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.sec1:before{
+    content: '';
+    top: 100%;
+    left: -50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform-origin: right;
+    transform: skewY(10deg);
+}
+.sec1:after{
+    content: '';
+    top: 100%;
+    right: -50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform-origin: left;
+    transform: skewY(-10deg);
+}
+
+.sec1 .primary-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    /* background: rgba(164, 124, 189, 0.7); */
+    background-attachment: fixed;
+    background: rgba(0,0,0, 0.5);
+}
+.sec1 .showcase {
+    color: white;
+    padding-top: 125px;
+    text-align:  center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+    width: auto;
+}
+.sec1 .bttn{
+    width: 120px !important;
+}
+.sec1 .showcase p span{
+    color: #A47CBD;
+}
+.sec1 .showcase .line {
+    font-size: 60px !important;
+    overflow: hidden;
+}
+.sec1 .showcase .text-banner{
+    animation: animate 3s infinite;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@keyframes animate{
+    0%{
+        color: #CFBAE1;
+    }
+    10%{
+        color: #CFBAE1;
+    }
+    30%{
+        color: #CFBAE1;
+    }
+    50%{
+        color: #CFBAE1;
+    }
+    60%{
+        color: #CFBAE1;
+    }
+    80%{
+        color: #CFBAE1;
+    }
+    100%{
+        color: #CFBAE1;
+    }
+}
+.sec1 .showcase .text-banner:after{
+    content: '';
+    animation: animate-2 3s linear infinite;
+}
+@keyframes animate-2{
+    0%{
+        content: 'Web Developer';
+    }
+    100%{
+        content: 'Web Designer';
+    }
+}
+
+/* section 2  CSS*/
+
+.sec2{
+    text-align: center;
+    padding-bottom: 30px;
+    background: #ffffff;
+    padding-top: 50px;
+}
+.sec2 .card{
+    background: #EBE0F2 !important;
+    border: 0;
+    margin-top: 10px;
+    width: 350px;
+    height: 300px;
+    color: #A47CBD;
+}
+.sec2 .card-title .sub{
+    font-size: 20px;
+}
+.sec2 .card-title{
+    font-size: 30px;
+}
+.sec2 .card-text{
+    font-size: 20px;
+}
+.sec2 .onclick .an{
+    position: absolute;
+    padding-top: 100px;
+    height: 100%;
+    background-color: #B68CC9;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.sec2 .onclick .an.show{
+    opacity: 1;
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.sec2 .bord1{
+    height: 28%;
+    width: 20%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.sec2 h1{
+    font-family: 'Anton', sans-serif;
+    color: #A47CBD;
+}
+
+/* CARD HOVER CSS*/
+.card-text{
+    font-size: 15px;
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+/* section 3 css*/
+.sec3 {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    color: white !important;
+    background: url(../img/bg11.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+.sec3:before {
+    content: '';
+    bottom: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform-origin: left;
+    transform: skewY(4deg);
+}
+.sec3 .primary-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    /* background: rgba(164, 124, 189, 0.7); */
+    background-attachment: fixed;
+    background: rgba(0,0,0, 0.1);
+}
+.sec3 .showcase {
+    color: white;
+    padding-top: 150px;
+    text-align:  center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+    width: auto;
+    color: #EBE0F2;
+}
+
+/* section 4 css */
+.sec4 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #DDCBEE;
+    color: #A47CBD !important;
+}
+.sec4 a{
+    color: #A47CBD !important;
+}
+.sec4 .carousel{
+    padding-top: 30px;
+}
+.sec4 h1{
+    font-family: 'Anton', sans-serif;
+}
+.sec4 h2{
+    font-family: 'Anton', sans-serif;
+}
+/* section 5 css */
+.sec5 {
+    height: 230px;;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #B68CC9;
+    padding-bottom: 30px;
+    color: #EBE0F2;
+}
+.sec5 h1{
+    font-family: 'Anton', sans-serif;
+}
+.sec5 .icon{
+    text-align: center;
+    margin: 30px !important;
+}
+.sec5 a{
+    color: #EBE0F2;
+}
+/* SECTION 6 CSS */
+.sec6{
+    color: #A47CBD;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.sec6 .about{
+    padding-top: 40px;
+    text-align: justify;
+    justify-content: center;
+}
+.sec6 .text-banner1{
+    animation: animate 3s infinite;
+
+}
+@keyframes animate{
+    0%{
+        color: #A47CBD;
+    }
+    10%{
+        color: #A47CBD;
+    }
+    30%{
+        color: #A47CBD;
+    }
+    50%{
+        color: #A47CBD;
+    }
+    60%{
+        color: #A47CBD;
+    }
+    80%{
+        color: #A47CBD;
+    }
+    100%{
+        color: #A47CBD;
+    }
+}
+.sec6 .text-banner1:after{
+    content: '';
+    animation: animate-2 3s linear infinite;
+}
+@keyframes animate-2{
+    0%{
+        content: 'Web Developer';
+    }
+    100%{
+        content: 'Web Designer';
+    }
+}
+.sec6 .bttn1{
+    border-color: #A47CBD;
+    color: #A47CBD;
+    width: 200px;
+}
+.sec6 .bttn1{
+    text-align: center;
+}
+.sec6 .h1{
+    font-family: 'Anton', sans-serif;
+}
+
+/* SECTION 7 CSS */
+.sec7{
+    height: 70px;
+    background: #A47CBD;
+    color: #EBE0F2;
+}
+.footer{
+    padding-top: 25px;
+}
+
+
+
+
+
+
+/* PROFILE CSS */
+
+/* SECTION 8 CSS */
+
+.sec8 {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    color: white !important;
+    background: url(../img/bg11.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+.sec8:before{
+    content: '';
+    top: 100%;
+    left: 100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    transform-origin: right;
+    transform: skewY(3deg);
+}
+.sec8 .primary-overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    /* background: rgba(164, 124, 189, 0.7); */
+    background-attachment: fixed;
+    background: rgba(0,0,0, 0.1);
+}
+.sec8 .showcase {
+    color: white;
+    padding-top: 150px;
+    text-align:  center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    overflow: hidden;
+    width: auto;
+    color: #EBE0F2;
+}
+
+/* SECTION 9 CSS */
+.sec9{
+    color: #A47CBD;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.sec9 .about{
+    padding-top: 40px;
+    text-align: justify;
+    justify-content: center;
+}
+.sec9 .text-banner1{
+    animation: animate 3s infinite;
+
+}
+@keyframes animate{
+    0%{
+        color: #A47CBD;
+    }
+    10%{
+        color: #A47CBD;
+    }
+    30%{
+        color: #A47CBD;
+    }
+    50%{
+        color: #A47CBD;
+    }
+    60%{
+        color: #A47CBD;
+    }
+    80%{
+        color: #A47CBD;
+    }
+    100%{
+        color: #A47CBD;
+    }
+}
+.sec9 .text-banner1:after{
+    content: '';
+    animation: animate-2 3s linear infinite;
+}
+@keyframes animate-2{
+    0%{
+        content: 'Web Developer';
+    }
+    100%{
+        content: 'Web Designer';
+    }
+}
+.sec9 .h1{
+    font-family: 'Anton', sans-serif;
+}
+
+/* SECTION 10 CSS */
+.sec10 .table{
+    color: #A47CBD;
+}
+
+
+/* SECTION 11 CSS */
+.sec10 h1{
+    padding-top: 30px;
+    font-family: 'Anton', sans-serif;
+    color: #A47CBD;
+}
+.sec10 .timeline{
+    position: relative;
+    margin: 50px auto;
+    width: 1000px;
+}
+.sec10 .timeline:before{
+    content: '';
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    background: #c5c5c5;
+}
+.sec10 .timeline ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sec10 .timeline ul li{
+    list-style: none;
+    position: relative;
+    width: 50%;
+    height: 100px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.sec10 .timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.sec10 .timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+}
+.sec10 .content{
+    padding-bottom: 20px;
+}
+.sec10 .timeline ul li:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background: #A47CBD;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(164, 124, 189, 0.2)
+}
+.sec10 .timeline ul li:nth-child(even):before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: #A47CBD;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(164, 124, 189, 0.2);
+}
+.sec10 .timeline ul li h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #A47CBD;
+    font-family: 'Anton', sans-serif;
+}
+.sec10 .timeline ul li .time h5{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.sec10 .timeline ul li .content p{
+    color: #A47CBD;
+}
+.sec10 .timeline ul li:nth-child(odd) .time{
+    position: absolute;
+    top: 12px;
+    right: -200px;
+    margin: 0;
+    padding: 8px 16px;
+    background: #A47CBD;
+    color: #EBE0F2;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(164, 124, 189, 0.2);
+}
+.sec10 .timeline ul li:nth-child(even) .time{
+    position: absolute;
+    top: 12px;
+    left: -200px;
+    margin: 0;
+    padding: 8px 16px;
+    background: #A47CBD;
+    color: #EBE0F2;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px rgba(164, 124, 189, 0.2);
+}
+
+/* SECTION 11 CSS */
+
+.sec11{
+    text-align: center;
+}
+.sec11 h1{
+    text-align: center;
+    color: #A47CBD;
+    font-family: 'Anton', sans-serif;
+}
+.sec11 .card{
+    margin-top: 10px;
+    height: 250px;
+    text-align: center;
+}
+.sec11 .card-body .chart{
+   text-align: center;
+   font-size: 50px;
+   margin-top: 20%;
+}
+.sec11 .card-body canvas{
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    align-content: center;
+}
+.sec11{
+    text-align: center;
+    padding-bottom: 30px;
+    background: #ffffff;
+    padding-top: 50px;
+}
+.sec11 .card{
+    background: #EBE0F2 !important;
+    border: 0;
+    margin-top: 10px;
+    width: 350px;
+    height: 300px;
+    color: #A47CBD;
+}
+.sec11 .card-title .sub{
+    font-size: 20px;
+}
+.sec11 .card-title{
+    font-size: 20px;
+}
+.sec11 .card-text{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* @media(min-width: 320px){
+    .sec1 .showcase .line {
+        font-size: 50px !important;
+        overflow: hidden;
+    }
+    .sec2 .card{
+        width: 290px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 25px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 360px){
+    .sec1 .showcase .line {
+        font-size: 50px !important;
+        overflow: hidden;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 120px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 25px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 375px){
+    .sec1 .showcase{
+        width: auto;
+        padding-top: 120px;
+    }
+    .sec1 .showcase .line {
+        font-size: 50px !important;
+        overflow: hidden;
+    }
+    .sec2 .card{
+        width: 350px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 130px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 414px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 160px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec5 .icon{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 425px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 160px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec5 .icon{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 720px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        text-align: center;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+        text-align: center;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 220px;;
+        text-align: center;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec5 .icon{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media(min-width: 768px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: 235px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 75px;
+        padding-left: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    
+    .sec9 .card{
+        margin-top: 10px;
+        height: 250px;
+        width: 100%;
+        text-align: center;
+    }
+    .sec9 .card-body .chart{
+       text-align: center;
+       font-size: 50px;
+       margin-top: 40%;
+    }
+    .sec9 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 30px;
+        align-content: center;
+    }
+}
+
+@media(min-width: 1024px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: 300px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 110px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec9 .card{
+        margin-top: 10px;
+        height: 250px;
+        text-align: center;
+    }
+    .sec9 .card-body .chart{
+       text-align: center;
+       font-size: 50px;
+       margin-top: 28%;
+    }
+    .sec9 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 70px;
+        align-content: center;
+    }
+}
+
+@media(min-width: 1440px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: 370px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 70px;
+        padding-left: 140px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec9 .card{
+        margin-top: 10px;
+        height: 250px;
+        text-align: center;
+    }
+    .sec9 .card-body .chart{
+       text-align: center;
+       font-size: 50px;
+       margin-top: 20%;
+    }
+    .sec9 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 100px;
+        align-content: center;
+    }
+} */

@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap');
+
+body{
+    position: relative;
+}
+.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    color: white !important;
+  }
+
+nav{
+    background: rgba(0, 0, 0, 0.5);
+    transition: background-color 1s ease 0s;
+    color: white !important;
+}
+.nav-link{
+    font-family: monospace;
+    font-size: 15px !important;
+}
+  /* Solid class attached on scroll past first section */
+  .navbar.solid {
+    background-color: #A47CBD;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-nav > li > a {
+    color: white !important;
+    transition: color 1s ease 0s;
+}
+  
+
+.sec2{
+    width: 100%;
+    height: 650px;
+    background: url(../img/bg6.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+.sec2 .primary-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    background: rgba(164, 124, 189, 0.7);
+    background-attachment: fixed;
+}
+.sec2 .showcase {
+    color: white;
+    padding-top: 125px;
+    text-align:  center;
+    font-family: monospace;
+    font-size: 20px;
+    overflow: hidden;
+    width: auto;
+    position: fixed;
+}
+.sec2 .bttn{
+    width: 120px !important;
+}
+.sec2 .showcase p span{
+    color: #E39F8D;
+}
+.sec2 .showcase .line {
+    font-size: 60px !important;
+    overflow: hidden;
+}
+.sec2 .showcase .text-banner{
+    animation: animate 3s infinite;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@keyframes animate{
+    0%{
+        color: #E39F8D;
+    }
+    10%{
+        color: #E39F8D;
+    }
+    30%{
+        color: #E39F8D;
+    }
+    50%{
+        color: #E39F8D;
+    }
+    60%{
+        color: #E39F8D;
+    }
+    80%{
+        color: #E39F8D;
+    }
+    100%{
+        color: #E39F8D;
+    }
+}
+.sec2 .showcase .text-banner:after{
+    content: '';
+    animation: animate-2 3s linear infinite;
+}
+@keyframes animate-2{
+    0%{
+        content: 'Web Developer';
+    }
+    100%{
+        content: 'Web Designer';
+    }
+}
+.sec3{
+    width: 100%;
+    background: #EBE0F2;
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+}
+.sec3:before{
+    content:'';
+    width: 51%;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    background: #EBE0F2;
+    transform: skewY(5deg);
+
+}
+.sec3:after{
+    content:'';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    right: -0;
+    background: #EBE0F2;
+    transform: skewY(-5deg);
+}
+
+/* Section 10 */
+.sec10{
+    text-align: center;
+    font-family: monospace;
+    padding-bottom: 30px;
+    background: #EBE0F2 !important;
+}
+.sec10 .card{
+    background: #EBE0F2 !important;
+    border: 0;
+    margin-top: 10px;
+    width: 350px;
+    height: 300px;
+}
+.sec10 .card-title .sub{
+    font-size: 10px;
+}
+
+/* sampple */
+.sec10 .onclick .an{
+    position: absolute;
+    padding-top: 100px;
+    height: 100%;
+    background-color: #CFBAE1;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.sec10 .onclick .an.show{
+    opacity: 1;
+    padding-top: 100px;
+}
+
+.sec10 .bord1{
+    height: 28%;
+    width: 20%;
+    padding-top: 100px;
+    padding-bottom: 6px;
+
+}
+.card-text{
+    font-size: 15px;
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.sec4{
+    background: #DDCBEE;
+    font-family: monospace;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.sec4 h1{
+    text-align: center;
+}
+.sec4 h2{
+    text-align: center;
+}
+.sec4 .carousel{
+    padding-top: 20px;
+}
+.sec4 .carousel2{
+    padding-top: 50px;
+}
+.sec4 .lead{
+    font-size: 15px;
+}
+.sec4 .carousel2 .carousel-item{
+    text-align: center !important;
+}
+.sec5{
+    background: #CFBAE1;
+    font-family: monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sec5 h1{
+    text-align: center;
+}
+.sec5 .eme{
+    text-align:  left;
+    padding-top: 50px !important;
+}
+.sec5 .text{
+    font-size: 20px;
+}
+.sec5 .text2{
+    margin: 10px;
+}
+.sec6{
+    font-family: monospace;
+    background: #B68CC9;
+}
+.sec6 p{
+    margin-top: 15px;
+}
+
+.sec7{
+    width: 100%;
+    height: 300px;
+    background: url(../img/bg4.jpeg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+}
+.sec7 .primary-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background: rgba(0,0,0,0.6);
+}
+.sec7 .showcase {
+    color: white;
+    padding-top: 125px;
+    text-align:  center;
+    font-family: monospace;
+    font-size: 20px;
+    overflow: hidden;
+}
+.sec8{
+    background: rgb(255, 251, 244);
+}
+
+.sec8 .text-banner{
+    animation: animate 3s infinite;
+    font-size: 20px;
+}
+@keyframes animate{
+    0%{
+        color: #E39F8D;
+    }
+    10%{
+        color: #E39F8D;
+    }
+    30%{
+        color: #E39F8D;
+    }
+    50%{
+        color: #E39F8D;
+    }
+    60%{
+        color: #E39F8D;
+    }
+    80%{
+        color: #E39F8D;
+    }
+    100%{
+        color: #E39F8D;
+    }
+}
+.sec8 .text-banner:after{
+    content: '';
+    animation: animate-2 3s linear infinite;
+}
+@keyframes animate-2{
+    0%{
+        content: 'Web Developer';
+    }
+    100%{
+        content: 'Web Designer';
+    }
+}
+.sec8 .info{
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sec8 .text-black{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: monospace;
+}
+.sec8 .color{
+    color: #E39F8D;
+}
+
+.sec9{
+    text-align: center;
+}
+.sec9 .card{
+    margin-top: 10px;
+    height: 250px;
+    text-align: center;
+}
+.sec9 .card-body .chart{
+   text-align: center;
+   font-size: 50px;
+   margin-top: 20%;
+}
+.sec9 .card-body canvas{
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    align-content: center;
+}
+
+/* @media(min-width: 1024px){
+    .card{
+        width: 300px;
+        height: 280px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+} */
+
+/* try */
+@media(min-width: 320px){
+    .sec2 .showcase {
+        width: auto;
+    }
+    .sec2 .showcase .line {
+        font-size: 55px !important;
+        overflow: hidden;
+    }
+    .sec10 .card{
+        width: 290px;
+        height: 240px;
+    }
+    .sec10 .bord1{
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+    .sec10 .title{
+        padding-top: 70px;
+    }
+    .sec10 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    
+    .sec10 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+@media(min-width: 375px){
+    .sec10 .card{
+        width: 350px;
+        height: 240px;
+    }
+    .sec10 .bord1{
+        padding-top: 50px;
+        padding-left: 130px;
+    }
+    .sec10 .title{
+        padding-top: 70px;
+    }
+    .sec10 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec10 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 425px){
+    .sec10 .card{
+        width: 400px;
+        height: 240px;
+    }
+    .sec10 .bord1{
+        padding-top: 50px;
+        padding-left: 160px;
+    }
+    .sec10 .title{
+        padding-top: 70px;
+    }
+    .sec10 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec10 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 768px){
+    .sec10 .card{
+        width: 235px;
+        height: 240px;
+    }
+    .sec10 .bord1{
+        padding-top: 75px;
+        padding-left: 70px;
+    }
+    .sec10 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    
+    .sec10 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    
+    .sec9 .card{
+        margin-top: 10px;
+        height: 250px;
+        width: 100%;
+        text-align: center;
+    }
+    .sec9 .card-body .chart{
+       text-align: center;
+       font-size: 50px;
+       margin-top: 40%;
+    }
+    .sec9 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 30px;
+        align-content: center;
+    }
+}
+
+@media(min-width: 1024px){
+    .sec10 .card{
+        width: 300px;
+        height: 240px;
+    }
+    .sec10 .bord1{
+        padding-top: 50px;
+        padding-left: 110px;
+    }
+    .sec10 .title{
+        padding-top: 70px;
+    }
+    .sec10 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec10 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec9 .card{
+        margin-top: 10px;
+        height: 250px;
+        text-align: center;
+    }
+    .sec9 .card-body .chart{
+       text-align: center;
+       font-size: 50px;
+       margin-top: 28%;
+    }
+    .sec9 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 70px;
+        align-content: center;
+    }
+}
+
+@media(min-width: 1440px){
+    .sec10 .card{
+        width: 370px;
+        height: 240px;
+    }
+    .sec10 .bord1{
+        padding-top: 70px;
+        padding-left: 140px;
+    }
+    .sec10 .title{
+        padding-top: 70px;
+    }
+    .sec10 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec10 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec9 .card{
+        margin-top: 10px;
+        height: 250px;
+        text-align: center;
+    }
+    .sec9 .card-body .chart{
+       text-align: center;
+       font-size: 50px;
+       margin-top: 20%;
+    }
+    .sec9 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 100px;
+        align-content: center;
+    }
+}

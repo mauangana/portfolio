@@ -1,0 +1,769 @@
+@media(min-width: 320px){
+    .sec1 .showcase .line {
+        font-size: 50px !important;
+        overflow: hidden;
+    }
+    .sec2 .card{
+        width: 290px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 25px;
+    }
+    .sec10 .timeline{
+        width: 100%;
+    }
+    .sec10 .timeline ul li:nth-child(even), 
+    .sec10 .timeline ul li:nth-child(odd)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .sec10 .timeline ul li:nth-child(odd):before,
+    .sec10 .timeline ul li:nth-child(even):before
+    {
+        top: -10px;
+        left: 16px;
+    }
+    .sec10 .timeline ul li:nth-child(odd) .time,
+    .sec10 .timeline ul li:nth-child(even) .time
+    {
+        padding: 4px 8px;
+        top: -15px;
+        left: 50px;
+        right: inherit;
+
+    }
+    .sec10 .timeline:before{
+        left: 20px;
+    }
+    .sec10 .timeline ul li h4{
+        font-size: 18px;
+    }
+    .sec10 .timeline ul li .content p{
+        font-size: 15px;
+    }
+    .sec11 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec11 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec11 .card{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 360px){
+    .sec1 .showcase .line {
+        font-size: 50px !important;
+        overflow: hidden;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 120px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 25px;
+    }
+    .sec10 .timeline{
+        width: 100%;
+    }
+    .sec10 .timeline ul li:nth-child(even), 
+    .sec10 .timeline ul li:nth-child(odd)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .sec10 .timeline ul li:nth-child(odd):before,
+    .sec10 .timeline ul li:nth-child(even):before
+    {
+        top: -10px;
+        left: 16px;
+    }
+    .sec10 .timeline ul li:nth-child(odd) .time,
+    .sec10 .timeline ul li:nth-child(even) .time
+    {
+        padding: 4px 8px;
+        top: -15px;
+        left: 50px;
+        right: inherit;
+
+    }
+    .sec10 .timeline:before{
+        left: 20px;
+    }
+    .sec10 .timeline ul li h4{
+        font-size: 18px;
+    }
+    .sec10 .timeline ul li .content p{
+        font-size: 15px;
+    }
+    .sec11 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 30%;
+     }
+     .sec11 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 90px;
+         text-align: center;
+     }
+     .sec11 .card{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 375px){
+    .sec1 .showcase{
+        width: auto;
+        padding-top: 120px;
+    }
+    .sec1 .showcase .line {
+        font-size: 50px !important;
+        overflow: hidden;
+    }
+    .sec2 .card{
+        width: 350px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 130px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec10 .timeline{
+        width: 100%;
+    }
+    .sec10 .timeline ul li:nth-child(even), 
+    .sec10 .timeline ul li:nth-child(odd)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .sec10 .timeline ul li:nth-child(odd):before,
+    .sec10 .timeline ul li:nth-child(even):before
+    {
+        top: -10px;
+        left: 16px;
+    }
+    .sec10 .timeline ul li:nth-child(odd) .time,
+    .sec10 .timeline ul li:nth-child(even) .time
+    {
+        padding: 4px 8px;
+        top: -20px;
+        left: 50px;
+        right: inherit;
+
+    }
+    .sec10 .timeline:before{
+        left: 20px;
+    }
+    .sec10 .timeline ul li h4{
+        font-size: 18px;
+    }
+    .sec10 .timeline ul li .content p{
+        font-size: 15px;
+    }
+    .sec11 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 30%;
+     }
+     .sec11 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 28%;
+         text-align: center;
+     }
+     .sec11 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 411px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 150px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec5 .icon{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .sec10 .timeline{
+        width: 100%;
+    }
+    .sec10 .timeline ul li:nth-child(even), 
+    .sec10 .timeline ul li:nth-child(odd)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .sec10 .timeline ul li:nth-child(odd):before,
+    .sec10 .timeline ul li:nth-child(even):before
+    {
+        top: -10px;
+        left: 16px;
+    }
+    .sec10 .timeline ul li:nth-child(odd) .time,
+    .sec10 .timeline ul li:nth-child(even) .time
+    {
+        top: -20px;
+        left: 50px;
+        right: inherit;
+    }
+    .sec10 .timeline:before{
+        left: 20px;
+    }
+    .sec10 .timeline ul li h4{
+        font-size: 20px;
+    }
+    .sec10 .timeline ul li .content p{
+        font-size: 15px;
+    }
+    .sec11 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 26%;
+     }
+     .sec11 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 30%;
+         text-align: center;
+     }
+     .sec11 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 412px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 160px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec5 .icon{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .sec10 .timeline{
+        width: 100%;
+    }
+    .sec10 .timeline ul li:nth-child(even), 
+    .sec10 .timeline ul li:nth-child(odd)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .sec10 .timeline ul li:nth-child(odd):before,
+    .sec10 .timeline ul li:nth-child(even):before
+    {
+        top: -10px;
+        left: 16px;
+    }
+    .sec10 .timeline ul li:nth-child(odd) .time,
+    .sec10 .timeline ul li:nth-child(even) .time
+    {
+        top: -20px;
+        left: 50px;
+        right: inherit;
+    }
+    .sec10 .timeline:before{
+        left: 20px;
+    }
+    .sec10 .timeline ul li h4{
+        font-size: 20px;
+    }
+    .sec10 .timeline ul li .content p{
+        font-size: 15px;
+    }
+    /* .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    } */
+
+}
+
+@media(min-width: 414px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 160px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec5 .icon{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .sec10 .timeline{
+        width: 100%;
+    }
+    .sec10 .timeline ul li:nth-child(even), 
+    .sec10 .timeline ul li:nth-child(odd)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .sec10 .timeline ul li:nth-child(odd):before,
+    .sec10 .timeline ul li:nth-child(even):before
+    {
+        top: -10px;
+        left: 16px;
+    }
+    .sec10 .timeline ul li:nth-child(odd) .time,
+    .sec10 .timeline ul li:nth-child(even) .time
+    {
+        top: -20px;
+        left: 50px;
+        right: inherit;
+    }
+    .sec10 .timeline:before{
+        left: 20px;
+    }
+    .sec10 .timeline ul li h4{
+        font-size: 20px;
+    }
+    .sec10 .timeline ul li .content p{
+        font-size: 15px;
+    }
+    /* .sec9 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 35%;
+     }
+     .sec9 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 25%;
+         text-align: center;
+     }
+     .sec9 .card{
+        text-align: center;
+        margin-top: 20px;
+    } */
+
+}
+
+@media(min-width: 425px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 160px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec5 .icon{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .sec10 .timeline{
+        width: 100%;
+    }
+    .sec10 .timeline ul li:nth-child(even), 
+    .sec10 .timeline ul li:nth-child(odd)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .sec10 .timeline ul li:nth-child(odd):before,
+    .sec10 .timeline ul li:nth-child(even):before
+    {
+        top: -10px;
+        left: 16px;
+    }
+    .sec10 .timeline ul li:nth-child(odd) .time,
+    .sec10 .timeline ul li:nth-child(even) .time
+    {
+        top: -20px;
+        left: 50px;
+        right: inherit;
+    }
+    .sec10 .timeline:before{
+        left: 20px;
+    }
+    .sec10 .timeline ul li h4{
+        font-size: 20px;
+    }
+    .sec10 .timeline ul li .content p{
+        font-size: 15px;
+    }
+    .sec11 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 25%;
+     }
+     .sec11 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 30%;
+         text-align: center;
+     }
+
+     .sec11 .card{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 720px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        text-align: center;
+    }
+    .sec2 .card{
+        width: auto;
+        height: 240px;
+        text-align: center;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 220px;;
+        text-align: center;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec5 .icon{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .sec10 .timeline{
+        width: 100%;
+    }
+    .sec11 .timeline ul li h4{
+        font-size: 20px;
+    }
+    .sec11 .timeline ul li .content p{
+        font-size: 15px;
+    }
+    .sec11 .card-body .chart{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 18%;
+     }
+     .sec11 .card-body canvas{
+         position: absolute;
+         top: 30%;
+         left: 35%;
+         text-align: center;
+     }
+     .sec11 .card{
+         width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+@media(min-width: 768px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: 235px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 75px;
+        padding-left: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    
+    .sec11 .card{
+        margin-top: 10px;
+        height: 250px;
+        width: 100%;
+        text-align: center;
+    }
+    .sec11 .card-body .chart{
+       text-align: center;
+       font-size: 35px;
+       margin-top: 40%;
+    }
+    .sec11 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 30px;
+        align-content: center;
+    }
+}
+
+@media(min-width: 1024px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: 300px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 50px;
+        padding-left: 110px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec11 .card{
+        margin-top: 10px;
+        height: 250px;
+        text-align: center;
+    }
+    .sec11 .card-body .chart{
+       text-align: center;
+       font-size: 30px;
+       margin-top: 30%;
+    }
+    .sec11 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 23%;
+        align-content: center;
+    }
+}
+
+@media(min-width: 1440px){
+    .sec1 .showcase {
+        padding-top: 150px;
+    }
+    .sec2 .card{
+        width: 370px;
+        height: 240px;
+    }
+    .sec2 .bord1{
+        padding-top: 70px;
+        padding-left: 140px;
+    }
+    .sec2 .title{
+        padding-top: 70px;
+    }
+    .sec2 .onclick .an{
+        position: absolute;
+        padding-top: 20px;
+        height: 100%;
+        background-color: #CFBAE1;
+        opacity: 0;
+        transition: 1s ease-in-out;
+    }
+    .sec2 .onclick .an.show{
+        opacity: 1;
+        padding-top: 60px;
+    }
+    .sec11 .card{
+        margin-top: 10px;
+        height: 250px;
+        text-align: center;
+    }
+    .sec11 .card-body .chart{
+       text-align: center;
+       font-size: 30px;
+       margin-top: 25%;
+    }
+    .sec11 .card-body canvas{
+        position: absolute;
+        top: 30%;
+        left: 27%;
+        align-content: center;
+    }
+}
